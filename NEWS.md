@@ -1,3 +1,7 @@
+# scaeData 0.99.5
+
+* Fixed a typo in the lookup table of pbmc 5k dataset
+
 # scaeData 0.99.3
 
 * Adding package level documentation
