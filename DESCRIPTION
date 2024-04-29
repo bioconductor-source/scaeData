@@ -1,7 +1,7 @@
 Package: scaeData
 Type: Package
 Title: Data Package for SingleCellAlleleExperiment
-Version: 0.99.5
+Version: 0.99.6
 Date: 2024-03-27
 Authors@R: 
     c(
@@ -18,7 +18,7 @@ Description: Contains default datasets used by the Bioconductor package SingleCe
     The raw FASTQ files were sourced from publicly accessible datasets provided by 10x Genomics.
     Subsequently, our scIGD snakemake workflow was employed to process these FASTQ files.
     The resulting output from scIGD constitutes to the contents of this data package.
-Depends: R (>= 4.3.0)
+Depends: R (>= 4.4.0)
 Imports: ExperimentHub
 Suggests: knitr,
     rmarkdown,
