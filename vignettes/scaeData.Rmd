@@ -119,7 +119,7 @@ lookup <- read.csv(system.file("extdata", "pbmc_20k_lookup_table.csv", package="
 library("SingleCellAlleleExperiment")
 scae_20k <- read_allele_counts(pbmc_20k$dir,
                                sample_names = "example_data",
-                               filter_mode = "yes",
+                               filter_mode = "no",
                                lookup_file = lookup,
                                barcode_file = pbmc_20k$barcodes,
                                gene_file = pbmc_20k$features,
