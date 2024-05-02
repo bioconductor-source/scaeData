@@ -1,3 +1,11 @@
+# scaeData 1.1.1
+
+* Changed filter_mode parameter value in the vignette to avoid check error
+
+# scaeData 1.0.0
+
+* Released with Bioconductor version 3.19
+
 # scaeData 0.99.6
 
 * Updated the required R version in the DESCRIPTION file from R (>= 4.3.0) to R (>= 4.4.0)
